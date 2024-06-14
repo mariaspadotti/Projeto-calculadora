@@ -9,3 +9,23 @@ Projeto desenvolvido no curso de Desenvolvimento de Sistemas na escola SENAI de 
 - CSS
 - JavaScript
 - VS Code
+
+### Git
+Aprendendo comandos Git.
+
+Comando para inicializar um repositório:
+```
+git init
+```
+Comando para vizualizar o Status da branch:
+```
+git status
+```
+Comando para adicionar slterações:
+```
+git add .
+```
+Comando para fazer um Commit:
+```
+git commit -m "nome-do-commit"
+```
