@@ -1,0 +1,103 @@
+.calculator {
+    background-color: #1D293A;
+    margin-top: 30px;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#display{
+    display: flex;
+}
+
+#displayContent {
+    background-color: #354357;
+    color: #FFF;
+    font-size: larger;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 258px;
+    height: 50px;
+    border: 1px solid #354357;
+    text-align: right;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+/* input:focus {
+  outline: none;
+} */
+  
+.btn-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 0 7.5px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFF;
+    background-color: #354357;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #4892ab;
+}
+
+#btn-c{
+    width: 190px;
+}
+
+#btn-equal{
+    width: 120px;
+}
+
+
+ /* geral */
+body, h1 {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+/* deixar o fundo escuro */
+body {
+  background-color: #4892ab;
+}
+
+/* Centralizar o título e colocar a margem superior e inferior de 30 e as laterais 0 */
+h1 {
+  text-align: center;
+  margin: 30px 0;
+  color: #FFF;
+}
+
+/* Estilizando a calculadora */
+#calculator {
+  background-color: #1d3a2c;
+  /* tamanho da calculador */
+  width: 400px;
+  height: 400px;
+  /* centralizando a calculadora nas laterais */
+  margin-left: auto;
+  margin-right: auto;
+  /* Dar um espaço da parte de cima na tela e na parte de baixo dos botões */
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
